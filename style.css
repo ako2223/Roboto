@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;600&family=Roboto:ital@0;1&display=swap');
 
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
 .container {
     width: 1440px;
     font-family: Roboto;
@@ -7,8 +12,10 @@
 }
 
 .nav_container{
-    width: 
-    1440px;;
+    width: 1440px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
 }
 
 .nav {
@@ -38,6 +45,17 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+
+}
+
+.header_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    ;
 }
 header .h1 {
     font-size: 43px;
@@ -48,10 +66,3 @@ header .h1, .h3 {
     color: white
 }
 
-.header_text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap:5px;
-}
