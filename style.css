@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;600&family=Roboto:ital@0;1&display=swap');
+
+.container {
+    width: 1440px;
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+.nav_container{
+    width: 
+    1440px;;
+}
+
+.nav {
+    width: 1365px;
+    height: 25px;
+    margin-top: 25px;
+    /* margin-left: 37.5px; */
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.nav_links-1 {
+    gap: 37.5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    background-image: url("./Rectangle.png");
+    height: 504px;
+}
+
+header h1, h3 {
+    color: white
+}
